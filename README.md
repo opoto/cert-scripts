@@ -3,7 +3,7 @@ cert-scripts
 
 Utility scripts for generating certificates, primarily useful for creating SSL test certificates.
 They rely on [openssl](https://www.openssl.org/) for the key and certificate processing.
-The scripts themselves a Unix shell scripts (`/bin/sh`).
+The scripts themselves are Unix shell scripts (`/bin/sh`).
 
 Creating a root certificate authority
 -------------------------------------
@@ -28,7 +28,7 @@ Issuing a certificate from a previously generated certificate authority
 ------------------------------------------------------------------------
 
 ```
-./newSSLCertificate.sh <Certif. name> <CA name>
+./newCertificate.sh <Certif. name> <CA name>
 ```
 
 Example:
