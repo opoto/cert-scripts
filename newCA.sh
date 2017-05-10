@@ -38,3 +38,5 @@ openssl req -nodes -config openssl.cnf -days $DAYS -x509 -newkey rsa:$KEYSIZE -k
 
 # Initialize serial numbers file:
 echo "00" > "$FNAME.srl"
+
+echo "Done."
